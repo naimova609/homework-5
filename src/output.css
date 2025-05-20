@@ -586,8 +586,24 @@ video {
   width: 80%;
 }
 
+.w-\[40\] {
+  width: 40;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -616,6 +632,10 @@ video {
   text-align: center;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -631,8 +651,18 @@ video {
   line-height: 2.5rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.text-\[\#E7426A\] {
+  --tw-text-opacity: 1;
+  color: rgb(231 66 106 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -678,5 +708,13 @@ video {
 
   .md\:w-\[10\%\] {
     width: 10%;
+  }
+
+  .md\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .md\:w-\[23\%\] {
+    width: 23%;
   }
 }
