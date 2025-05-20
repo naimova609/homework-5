@@ -578,6 +578,14 @@ video {
   width: 50%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .items-center {
   align-items: center;
 }
@@ -662,5 +670,13 @@ video {
 
   .md\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .md\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .md\:w-\[10\%\] {
+    width: 10%;
   }
 }
