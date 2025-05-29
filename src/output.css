@@ -147,7 +147,6 @@ html,
 :host {
   line-height: 1.5;
   /* 1 */
-  -webkit-text-size-adjust: 100%;
   /* 2 */
   -moz-tab-size: 4;
   /* 3 */
@@ -578,9 +577,7 @@ video {
   width: 50%;
 }
 
-.w-\[\] {
-  width: ;
-}
+
 
 .w-\[80\%\] {
   width: 80%;
@@ -614,9 +611,6 @@ video {
   justify-content: space-around;
 }
 
-.gap-\[\] {
-  gap: ;
-}
 
 .gap-\[20px\] {
   gap: 20px;
@@ -694,9 +688,6 @@ video {
     display: none;
   }
 
-  .md\:w-\[\] {
-    width: ;
-  }
 
   .md\:w-\[30\%\] {
     width: 30%;
